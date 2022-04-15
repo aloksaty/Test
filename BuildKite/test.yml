@@ -2,4 +2,4 @@ env:
   var: "hello world"
 
 steps:
-  - command: "D:\Test\1.bat"
+  - command: "D:/Test/1.bat"
