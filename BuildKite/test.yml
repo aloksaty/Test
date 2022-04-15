@@ -2,4 +2,4 @@ env:
   var: "hello world"
 
 steps:
-  - command: ">D:/python3.9/python.exe HelloWorld.py"
+  - command: "D:/python3.9/python.exe HelloWorld.py"
