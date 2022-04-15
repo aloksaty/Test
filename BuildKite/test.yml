@@ -2,4 +2,4 @@ env:
   var: "hello world"
 
 steps:
-  - command: "python3 D:/Test/HelloWorld.py"
+  - command: "python D:/Test/HelloWorld.py"
