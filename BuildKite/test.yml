@@ -2,5 +2,4 @@ env:
   var: "hello world"
 
 steps:
-  - command: "pwd"
   - command: "D:\Test\1.bat"
