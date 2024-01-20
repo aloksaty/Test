@@ -1,7 +1,11 @@
+on: 
+	
+ workflow_dispatch:
+
 name: self-hosted-example
 
 jobs:
-  simpleExample:
+  build:
     runs-on: self-hosted
     steps:
     # checkout branch
