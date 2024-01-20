@@ -1,9 +1,6 @@
 on: 
-	
- workflow_dispatch:
-
+workflow_dispatch:
 name: self-hosted-example
-
 jobs:
   build:
     runs-on: self-hosted
@@ -11,6 +8,6 @@ jobs:
     # checkout branch
     - uses: actions/checkout@master
     - name: Run a multi-line script
-	  run : echo on
+      run : echo on
             echo "Great day ahead"
-			timeout /t 5000
+	    timeout /t 5000
