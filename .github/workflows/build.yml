@@ -7,6 +7,6 @@ jobs:
     # checkout branch
     - uses: actions/checkout@master
     - name: testWorkflow
-	  run : |echo on
+	  run : echo on
             echo "Great day ahead"
 			timeout /t 5000
