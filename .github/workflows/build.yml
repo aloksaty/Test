@@ -6,7 +6,7 @@ jobs:
     steps:
     # checkout branch
     - uses: actions/checkout@master
-    - name: testWorkflow
+    - name: Run a multi-line script
 	  run : echo on
             echo "Great day ahead"
 			timeout /t 5000
