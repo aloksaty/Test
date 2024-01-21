@@ -4,7 +4,7 @@ name: 070-self-hosted-runner
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: none # [ main ]
+    branches: master
   pull_request:
     branches: none # [ main ]
 
