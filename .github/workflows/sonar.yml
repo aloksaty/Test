@@ -25,7 +25,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        working-directory: C:\automation\ReCon_UI_Automation%20
         run: curl http://10.100.30.33:8080/generic-webhook-trigger/invoke?token=sonar
 
       # Runs a set of commands using the runners shell
