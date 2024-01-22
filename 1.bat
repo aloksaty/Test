@@ -5,6 +5,6 @@ echo "Hello World"
 Rem Turns the echo off so that each command will not be shown when executed 
 @echo off 
 echo "Hello World" 
-
+test this
 Rem Displays the contents of the PATH variable 
 echo %PATH%
